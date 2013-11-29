@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6, #sidebar a, #main #ppc, #main-text a {
+	color: rgb(37, 102, 184);
+}
+#header #login, #banner, #sidebar #demo {
+	background-color: rgb(37, 102, 184);
+}
+button {
+	border: 1px solid rgb(210, 210, 210);
+	border-radius: 5px;
+	color: white;
+}
+.large-button {
+	width: 220px;
+	padding: 8px 20px;
+	font-size: .8em;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	padding: 40px 20px;
+	position: relative;
+}
+#top-nav {
+	background-color: rgb(240, 240, 240);
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 100px;
+	padding: 2px 0px 10px;
+	border: 1px solid rgb(210, 210, 210);
+	border-top: none;
+	border-radius: 0px 0px 5px 5px;
+}
+#top-nav ul li {
+	padding: 0px 15px;
+	display: inline; 
+	border-right: 1px solid rgb(135, 135, 135);
+}
+#top-nav ul li:last-child {
+	border: none;
+}
+#top-nav ul li a {
+	color: rgb(135, 135, 135);
+	text-decoration: none;
+	font-size: .7em;
+	}
+#header #login {
+	padding: 5px 15px; 
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+#banner {
+	padding: 20px;
+}
+#banner h2 {
+	color: white;
+	font-weight: 100;
+}
+
+#sidebar {
+	width: 250px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+#sidebar h4 {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+#sidebar h5 {
+	color: rgb(214, 65, 0);
+}
+#sidebar p {
+	font-size: .8em;
+	padding-top: 7px;
+	padding-bottom: 20px;
+}
+#sidebar a {
+	text-decoration: none;
+}
+#sidebar #trial {
+	background-color: rgb(214, 65, 0);
+	margin-top: 5px;
+}
+#sidebar .center {
+	text-align: center;
+	width: 220px;
+}
+#sidebar #nocc {
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+#sidebar #ad {
+	width: 180px;
+	background-color: rgb(200, 200, 200);
+	margin-top: 20px;
+	padding: 15px;
+}
+#sidebar #ad h4 {
+	font-weight: 600;
+}
+#sidebar #ad p {
+	font-weight: 600;
+	color: rgb(70, 70, 70);
+}
+#sidebar #ad #graded {
+	background-color: rgb(20, 64, 104);
+	width: 180px;
+}
+#sidebar #ad #arrow-1 {
+	color: rgb(92, 142, 182);
+}
+#sidebar #ad #arrow-2 {
+	color: rgb(151, 189, 217);
+}
+#sidebar img {
+	width: 210px;
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	width:700px;
+	height: 500px;
+	float: right;
+}
+#main #home{
+	float: left;
+}
+#main #ppc {
+	float: left;
+	margin: 22px;
+	font-weight: 400;
+}
+#main #phone{
+	float: right;
+}
+#main #phone-text{
+	float: right;
+	margin: 10px;
+}
+#main #phone-text .gray {
+	color: gray;
+	font-size: .7em;
+}
+#main #phone-text #number {
+	color: rgb(68, 179, 232);
+	font-size: 1.5em; 
+	font-weight: 600;
+}
+#main-text {
+	clear: both;
+	border-top: 1px solid rgb(200, 200, 200);
+	font-size: .8em;
+}
+#main-text h3 {
+	margin: 5px 0px 10px;
+	font-size: 1.4em;
+}
+#main-text .important {
+	font-weight: bold;
+}
+#main-text ul {
+	list-style-image: url('bullet.png');
+	margin: 20px 20px 25px;
+}
+#main-text ul li {
+	margin-bottom: 10px;
+}
+#main-text #try-free {
+	width: 640px;
+	height: 128px;
+	margin: 20px 0px 20px 5px;
+	border: 5px solid rgb(134, 187, 220);
+	padding: 3px 10px;
+}
+#main-text #try-free p {
+	font-size: 1.1em;
+}
+#main-text #flag {
+	float: left;
+}
+#main-text #flag-text {
+	width: 550px;
+	float: left;
+	padding-left: 10px;
+}
+#main-text #get-started {
+	width: 180px;
+	background-color: rgb(162, 192, 0);
+	margin: 10px 0px;
+	font-size: 1.1em;
+}
+#main-text h4 {
+	margin-bottom: 10px;
+}
